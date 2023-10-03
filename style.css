@@ -1,0 +1,105 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+/* body{ */
+	/* background: rgb(198,25,130); */
+/* background: linear-gradient(90deg, rgba(198,25,130,1) 12%, rgba(51,34,125,1) 88%); */
+
+/* } */
+.form{
+	background-image:url('download.jfif');
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+form h1{
+	padding-top:28px;
+	
+}
+form p{
+	padding-bottom:15px;
+	padding-top:8px;
+	
+}
+
+form{
+	border-radius:10px;
+	box-shadow:0 0 14px rgba(0,0,0,0.4);
+	text-align:center;
+	width:40%;
+	height:415px;
+	/* box-shadow:0 0 14px rgba(0,0,0,0.4) */
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	position:absolute;
+	padding:0 20px;
+}
+form input{
+	
+	border-radius:20px;
+	border:1px solid #ced4da;
+	width:60%;
+	height:43px;
+	padding:10px 10px;
+	margin:10px 0;
+}
+form input:focus{
+	outline:0;
+	border-color:#86b7fe;
+	box-shadow:0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+	background:#fff;
+}
+form a{
+	/* padding:12px 0; */
+	color:grey;
+	letter-spacing:1px;
+	text-decoration:none;
+	
+}
+form a:hover{
+	border-bottom:1px solid grey;
+}
+form .btn{
+	padding:10px 25px;
+	margin-top:20px;
+	border-radius:10px;
+	border:none;
+	border-color:green;
+	font-size:18px;
+	cursor:pointer;
+	transition:.4s;
+}
+form .btn:hover{
+	background:grey;
+	letter-spacing:2px;
+	color:#fff;
+}
+form .icons {
+	margin-top:10px;
+	font-size:18px;
+	text-align:center;
+	
+}
+form .icons .row{
+	display:flex;
+	justify-content:center;
+}
+form .icons a{
+	
+	margin:10px;
+	display:block;
+	width:60px;
+	height:60px;
+
+	border-radius:50%;
+	
+	line-height:60px;
+}
+form .icons a:hover{
+	background:#000;
+}
